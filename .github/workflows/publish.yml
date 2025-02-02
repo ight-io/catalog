@@ -20,7 +20,7 @@ jobs:
         run: echo "RELEASE_TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
 
       - name: Publish to MavenCentral
-        run: ./gradlew publishToMavenCentral --no-configuration-cache -PVERSION_NAME=${{ env.RELEASE_TAG }}
+        run: ./gradlew publishAndReleaseToMavenCentral --no-configuration-cache -PVERSION_NAME=${{ env.RELEASE_TAG }}
         env:
           ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.MAVEN_CENTRAL_USERNAME }}
           ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.MAVEN_CENTRAL_PASSWORD }}
