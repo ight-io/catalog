@@ -24,4 +24,7 @@ gradle-app.setting
 .fleet
 .kotlin
 
+# bruh
 local.properties
+*.gpg
+.DS_Store
