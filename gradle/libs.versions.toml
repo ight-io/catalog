@@ -1,25 +1,3 @@
-___ 
-<p align="right">
-  <a href="https://github.com/ight-io/catalog/actions/workflows/publish.yml">
-    <img src="https://github.com/ight-io/catalog/actions/workflows/publish.yml/badge.svg" alt="Release CI">
-  </a>
-  <a href="https://github.com/ight-io/catalog/releases">
-    <img src="https://img.shields.io/github/v/release/ight-io/catalog?logo=github&style=flat" alt="GitHub release (latest by date)">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="GitHub license: MIT">
-  </a>
-</p>
-
-___
-
-# Version catalog
-
-all ight.io jvm projects should rely on this artesano if something is out of date please create an issue or a pull request.
-
-## catalog shared
-
-```toml
 [versions]
 kotlin = "2.0.21"
 
@@ -132,7 +110,3 @@ ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
 ben-manes-versions = { id = "com.github.ben-manes.versions", version.ref = "ben-manes" }
 vanniktech-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech" }
 
-
-
-
-```
