@@ -50,6 +50,8 @@ vanniktech = "0.30.0"
 clikt = "5.0.2"
 mosaic = "0.14.0"
 
+ight-annotation = "0.0.2"
+
 [libraries]
 # kotlin
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
@@ -95,6 +97,16 @@ kotlinx-rpc-krpc-server = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-ser
 kotlinx-rpc-krpc-ktor-client = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-ktor-client", version.ref = "kotlinx-rpc" }
 kotlinx-rpc-krpc-ktor-server = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-ktor-server", version.ref = "kotlinx-rpc" }
 kotlinx-rpc-krpc-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-serialization-json", version.ref = "kotlinx-rpc" }
+
+# ight
+ight-annotation = { module = "io.ight:annotation", version.ref = "ight-annotation" }
+ight-annotation-wasm-js = { module = "io.ight:annotation-wasm-js", version.ref = "ight-annotation" }
+ight-annotation-linuxx64 = { module = "io.ight:annotation-linuxx64", version.ref = "ight-annotation" }
+ight-annotation-iosarm64 = { module = "io.ight:annotation-iosarm64", version.ref = "ight-annotation" }
+ight-annotation-iossimulatorarm64 = { module = "io.ight:annotation-iossimulatorarm64", version.ref = "ight-annotation" }
+ight-annotation-jvm = { module = "io.ight:annotation-jvm", version.ref = "ight-annotation" }
+ight-annotation-android = { module = "io.ight:annotation-android", version.ref = "ight-annotation" }
+ight-annotation-macosarm64 = { module = "io.ight:annotation-macosarm64", version.ref = "ight-annotation" }
 
 # other
 logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
