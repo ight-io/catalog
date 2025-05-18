@@ -32,93 +32,149 @@ ight-annotation = "0.0.2"
 
 [libraries]
 # kotlin
+# https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-stdlib
 kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+# https://mvnrepository.com/artifact/org.jetbrains.kotlin/kotlin-test
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+# https://mvnrepository.com/artifact/org.jetbrains.kotlin
 kotlin-test-junit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
 
 # android
+# https://mvnrepository.com/artifact/androidx.core/core-ktx
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
+# https://mvnrepository.com/artifact/androidx.test.ext/junit
 androidx-test-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-junit" }
+# https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-espresso-core" }
+# https://mvnrepository.com/artifact/androidx.appcompat/appcompat
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+# https://mvnrepository.com/artifact/com.google.android.material/material
 androidx-material = { group = "com.google.android.material", name = "material", version.ref = "androidx-material" }
+# https://mvnrepository.com/artifact/androidx.constraintlayout/constraintlayout
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
+# https://mvnrepository.com/artifact/androidx.activity/activity-compose
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 
 # compose
+# https://mvnrepository.com/artifact/androidx.compose.ui/ui-tooling
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+# https://mvnrepository.com/artifact/androidx.compose.ui/ui-tooling-preview
 compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 
 # kotlinx
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-json
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-serialization-core
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "serialization" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-coroutines-core
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-datetime
 kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinx-datetime" }
 
 # ktor
+# https://central.sonatype.com/artifact/io.ktor/ktor-server-core
 ktor-server-core = { module = "io.ktor:ktor-server-core-jvm", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-server-netty
 ktor-server-netty = { module = "io.ktor:ktor-server-netty-jvm", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-server-cors-jvm
 ktor-server-cors-jvm = { module = "io.ktor:ktor-server-cors-jvm", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-server-websockets-jvm
 ktor-server-websockets-jvm = { module = "io.ktor:ktor-server-websockets-jvm", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-server-host-common-jvm
 ktor-server-host-common-jvm = { module = "io.ktor:ktor-server-host-common-jvm", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-server-test-host
 ktor-server-test-host = { module = "io.ktor:ktor-server-test-host", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-client-core
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-client-websockets
 ktor-client-websockets = { module = "io.ktor:ktor-client-websockets", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-serialization-json
 ktor-serialization-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-client-cio
 ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
+# https://central.sonatype.com/artifact/io.ktor/ktor-client-js
 ktor-client-js = { module = "io.ktor:ktor-client-js", version.ref = "ktor" }
 
 # kotlinx-rpc
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-rpc-core
 kotlinx-rpc-core = { module = "org.jetbrains.kotlinx:kotlinx-rpc-core", version.ref = "kotlinx-rpc" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-rpc-krpc-client
 kotlinx-rpc-krpc-client = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-client", version.ref = "kotlinx-rpc" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-rpc-krpc-server
 kotlinx-rpc-krpc-server = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-server", version.ref = "kotlinx-rpc" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-rpc-krpc-ktor-client
 kotlinx-rpc-krpc-ktor-client = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-ktor-client", version.ref = "kotlinx-rpc" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-rpc-krpc-ktor-server
 kotlinx-rpc-krpc-ktor-server = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-ktor-server", version.ref = "kotlinx-rpc" }
+# https://central.sonatype.com/artifact/org.jetbrains.kotlinx/kotlinx-rpc-krpc-serialization-json
 kotlinx-rpc-krpc-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-rpc-krpc-serialization-json", version.ref = "kotlinx-rpc" }
 
 # ight
+# https://mvnrepository.com/artifact/io.ight/ight-annotation
 ight-annotation = { module = "io.ight:annotation", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-wasm-js
 ight-annotation-wasm-js = { module = "io.ight:annotation-wasm-js", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-linuxx64
 ight-annotation-linuxx64 = { module = "io.ight:annotation-linuxx64", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-iosarm64
 ight-annotation-iosarm64 = { module = "io.ight:annotation-iosarm64", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-iossimulatorarm64
 ight-annotation-iossimulatorarm64 = { module = "io.ight:annotation-iossimulatorarm64", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-jvm
 ight-annotation-jvm = { module = "io.ight:annotation-jvm", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-android
 ight-annotation-android = { module = "io.ight:annotation-android", version.ref = "ight-annotation" }
+# https://mvnrepository.com/artifact/io.ight/ight-annotation-macosarm64
 ight-annotation-macosarm64 = { module = "io.ight:annotation-macosarm64", version.ref = "ight-annotation" }
 
 # other
+# https://central.sonatype.com/artifact/ch.qos.logback/logback-classic
 logback = { module = "ch.qos.logback:logback-classic", version.ref = "logback" }
+# https://central.sonatype.com/artifact/com.materialkolor/material-kolor
 material-kolor = { module = "com.materialkolor:material-kolor", version.ref = "material-kolor" }
 
 # testing
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 
 # cli
+# https://central.sonatype.com/artifact/com.github.ajalt.clikt/clikt
 clikt = { module = "com.github.ajalt.clikt:clikt", version.ref = "clikt" }
+# https://central.sonatype.com/artifact/com.github.ajalt.clikt/clikt-markdown
 clikt-markdown = { module = "com.github.ajalt.clikt:clikt-markdown", version.ref = "clikt" }
+# https://central.sonatype.com/artifact/com.jakewharton.mosaic/mosaic-runtime
 mosaic = { module = "com.jakewharton.mosaic:mosaic-runtime", version.ref = "mosaic" }
 
 [plugins]
 # android
+# https://mvnrepository.com/artifact/com.android.application/com.android.application.gradle.plugin
 androidApplication = { id = "com.android.application", version.ref = "agp" }
+# https://mvnrepository.com/artifact/com.android.library/com.android.library.gradle.plugin
 androidLibrary = { id = "com.android.library", version.ref = "agp" }
 
 # compose
+# https://plugins.gradle.org/plugin/org.jetbrains.compose
 jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
+# https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.compose
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 
 # kotlin
+# https://plugins.gradle.org/plugin/org.jetbrains.kotlin.jvm
 kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+# https://plugins.gradle.org/plugin/org.jetbrains.kotlin.multiplatform
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 
 # kotlinx
+# https://plugins.gradle.org/plugin/org.jetbrains.kotlin.plugin.serialization
 kotlinPluginSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+# https://plugins.gradle.org/plugin/org.jetbrains.kotlinx.rpc.plugin
 kotlinx-rpc = { id = "org.jetbrains.kotlinx.rpc.plugin", version.ref = "kotlinx-rpc" }
 
 # ktor
+# https://plugins.gradle.org/plugin/io.ktor.plugin
 ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
 
 # other
+# https://plugins.gradle.org/plugin/com.github.ben-manes.versions
 ben-manes-versions = { id = "com.github.ben-manes.versions", version.ref = "ben-manes" }
+# https://central.sonatype.com/artifact/com.vanniktech/gradle-maven-publish-plugin
 vanniktech-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech" }
-

@@ -1,0 +1,27 @@
+___
+<p align="right">
+  <a href="https://github.com/ight-io/catalog/actions/workflows/publish.yml">
+    <img src="https://github.com/ight-io/catalog/actions/workflows/publish.yml/badge.svg" alt="Release CI">
+  </a>
+  <a href="https://github.com/ight-io/catalog/releases">
+    <img src="https://img.shields.io/github/v/release/ight-io/catalog?logo=github&style=flat" alt="GitHub release (latest by date)">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="GitHub license: MIT">
+  </a>
+</p>
+
+___
+
+# Version catalog
+
+all ight.io kotlin projects should rely on this artesano if something is out of date please create an issue or a pull request.
+
+## catalog shared
+
+```toml
+${ tomlContent }
+
+```
+
+updated at ${ timestamp }
